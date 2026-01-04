@@ -1,0 +1,24 @@
+#ifndef __RTC_H__
+#define __RTC_H__
+#include "types.h"
+void Init_RTC(void);
+void SetRTCTimeInfo(u32,u32,u32);
+void SetRTCDateInfo(u32,u32,u32);
+void SetRTCDay(u32);
+void GetRTCTimeInfo(s32*,s32*,s32*);
+void GetRTCDateInfo(s32*,s32*,s32*);
+void GetRTCDay(s32*);
+void DisplayRTCTime(u32,u32,u32);
+void DisplayRTCDate(u32,u32,u32);
+void DisplayRTCDay(u32);
+void DisplayTemp(u32);
+void show_Menu(void);
+void SetRTCTimeDateInfoByUsr(void);
+u32 checkAlarm(void);
+void DisplayAlarm(void);
+void setAlarm(void);
+u32 Alarmset(void);
+void DisplayBell(void);
+void setAh(s32);
+void setAm(s32);
+#endif
