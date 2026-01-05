@@ -27,12 +27,12 @@ Alarm configuration with visual alarm symbol on LCD.
 
 ## HARDWARE COMPONENTS:
 
-LPC2148 ARM7 Microcontroller
-RTC Module (internal / external as configured)
-LM35 Temperature Sensor
-16×2 Character LCD
-4×4 Matrix Keypad
-External Interrupt Push Button
+LPC2148 ARM7 Microcontroller,
+RTC Module (internal / external as configured),
+LM35 Temperature Sensor,
+16×2 Character LCD,
+4×4 Matrix Keypad,
+External Interrupt Push Button,
 LED / Buzzer (for alarm indication)
 
 ## TEMPERATURE MEASUREMENT (LM35):
